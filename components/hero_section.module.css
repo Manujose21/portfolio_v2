@@ -1,6 +1,5 @@
 
 .animation_icon {
-    z-index: -1;
     animation-name: animation-icon;
     animation-duration: 5s;
     animation-iteration-count: infinite;

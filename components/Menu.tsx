@@ -7,10 +7,8 @@ export const Menu = () => {
     // }
 
     return (
-        <header className="p-4 border-zinc-900 flex items-center justify-between gap-3 sticky top-0 ">
-            {/* <h1 className="text-xl font-bold fixed">My portfolio</h1> */}
+        <header className="p-4 border-zinc-900 flex items-center justify-between gap-3 sticky top-0 z-10">
             <nav className="flex justify-center md:justify-center flex-1">
-                {/* <button className="md:hidden p-2 border-2 border-zinc-900 rounded-xl hover:bg-background-secondary">☰</button> */}
                 <ul className="flex gap-4 py-2 px-4 text-sm  rounded-full bg-background-secondary bg-opacity-50 backdrop-blur-sm ">
                     <li className="list-none hover:text-revolver-300 flex gap-1 items-center">
                         <IoHandLeft size={12}/>
